@@ -1,13 +1,27 @@
-﻿
-# GeoGuessr Computer Vision AI
+# 🌍 ML Competition – GeoGuessr Computer Vision AI – Lumen Data Science 2022
 
 <p align="center">
-	<img src="docs/img/geoguesser-logo.png"></img>
+
+[📌 Competition Documentation](https://github.com/ciglenecki/geoguessr-ai/blob/main/pdf-documentation.pdf) |
+| --------------------------------------------------------------------------------------------------------- |
+
 </p>
 
-Competition use case: https://arhiva.estudent.hr/wp-content/uploads/2022/01/lumen-datasci-2022-3.pdf
+LUMEN Data Science is the largest machine learning competition in Croatia. The goal of the compeition is to build a computer vision model that predicts the geographic location from an image (GeoGuessr-style), and evaluate it using mean haversine distance error.
 
-Location prediction mean error is 22km. Croatia's "bounding box" is ~450 x 450km.
+We trained a deep learning model for image based geolocation and achieved **22 km mean error**. For reference, Croatia’s bounding box is roughly **450 × 450 km**.
+
+We got in the competition finals.
+
+Simplified, high-level problem and solution:
+
+```text
+street-view image
+street-view image ---image encoder (CNN)---> embedding
+(v1) embedding ---classification head---> class (square region)
+(v2) embedding ---regression head---> latitude, longitude
+haversine(pred, gt) -> distance error (km)
+```
 
 ## Notices:
 

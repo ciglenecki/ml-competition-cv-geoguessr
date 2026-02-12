@@ -210,3 +210,4 @@ def predict_dataset(model_name: str, body: models.PostPredictDatasetRequest):
         for uuid, longitude, latitude in zip(pred_dict["uuid"], pred_dict["longitude"], pred_dict["latitude"]):
             response_list.append(dict(uuid=uuid, longitude=longitude, latitude=latitude))
     return response_list
+

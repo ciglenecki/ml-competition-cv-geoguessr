@@ -63,3 +63,4 @@ def cart_to_lat_long(self, y, images):
     longitude_images = torch.atan2(images[:, 1], images[:, 0])
 
     return torch.stack((latitude_y, longitude_y)), torch.stack((latitude_images, longitude_images))
+

@@ -160,3 +160,4 @@ def get_clipped_centroids(polygons: List[Polygon], clipping_shape: gpd.GeoDataFr
             clipped_centroid.is_true_centroid = False
         polygon_clipped_centroids.append(clipped_centroid)
     return polygon_clipped_centroids
+

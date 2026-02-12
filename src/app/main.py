@@ -69,3 +69,4 @@ if __name__ == "__main__":
         loop="asyncio",
         reload=bool(int(server_config["HOT_RELOAD"])),
     )
+

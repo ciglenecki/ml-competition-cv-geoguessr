@@ -149,3 +149,4 @@ if __name__ == "__main__":
     print("This file shouldn't be called as a script unless used for debugging.")
     dataset = GeoguesserDataset()
     print(dataset.__getitem__(2))
+

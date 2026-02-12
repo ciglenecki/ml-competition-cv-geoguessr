@@ -148,3 +148,4 @@ class BackboneFreezing(Callback):
         params = BaseFinetuning.filter_on_optimizer(optimizer, params)
         if params:
             optimizer.add_param_group({"params": params})
+

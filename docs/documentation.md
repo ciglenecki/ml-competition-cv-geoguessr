@@ -523,3 +523,4 @@ user_args/unfreeze_blocks: all
 ![A graph of validation model loss over time for our best model.](img/val_loss_epoch_best.png){width=100%}
 	
 ![A graph of validation model haversine distance over time for our best model.](img/val_hav_epoch_best.png){width=100%}
+

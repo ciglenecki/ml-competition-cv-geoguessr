@@ -41,3 +41,4 @@ async def predict_cardinal_images(model_name: str, images: List[UploadFile]):
 )
 def predict_dataset(model_name: str, body: models.PostPredictDatasetRequest):
     return controller.predict_dataset(model_name, body)
+

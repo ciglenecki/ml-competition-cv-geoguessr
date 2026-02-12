@@ -82,3 +82,4 @@ def topk_accuracy(y_pred_log, y_test, k=3):
     """
     correct = equal.any(dim=1)
     return correct.double().mean().item()
+

@@ -31,3 +31,4 @@ class PredictDirectoryReponse(BaseModel):
 
 class PostPredictCardinal(List[UploadFile]):
     pass
+

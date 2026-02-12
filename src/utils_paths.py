@@ -49,3 +49,4 @@ PATH_MODEL = Path(WORK_DIR, "models")
 
 if __name__ == "__main__":
     pass
+

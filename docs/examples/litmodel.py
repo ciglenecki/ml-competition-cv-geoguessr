@@ -77,3 +77,4 @@ class LitModelClassification(pl.LightningModule):
         }
 
         return config_dict
+

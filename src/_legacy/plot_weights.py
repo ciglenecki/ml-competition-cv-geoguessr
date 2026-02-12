@@ -8,3 +8,4 @@
 # plt.show()
 # plot_weights(model, 0, False, False)
 # plot_weights(model, 0, True, False)
+

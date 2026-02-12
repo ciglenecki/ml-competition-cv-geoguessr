@@ -70,3 +70,4 @@ def get_signature_param(url, payload, secret):
     # Encode the binary signature into base64 for use within a URL
     encoded_signature = base64.urlsafe_b64encode(signature.digest())
     return encoded_signature.decode()
+

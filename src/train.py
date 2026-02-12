@@ -223,3 +223,4 @@ if __name__ == "__main__":
 
     trainer.fit(model, datamodule, ckpt_path=trainer_checkpoint)
     trainer.test(model, datamodule)
+

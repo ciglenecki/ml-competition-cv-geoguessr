@@ -65,3 +65,4 @@ if __name__ == "__main__":
 
     loader = torch.utils.data.DataLoader(dataset, batch_size=8, num_workers=0, shuffle=False)
     mean, std = get_mean_and_std(loader)
+

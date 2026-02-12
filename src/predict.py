@@ -97,3 +97,4 @@ if __name__ == "__main__":
         )
         predictions = trainer.predict(model=model, datamodule=predict_datamodule)
         print(predictions)
+

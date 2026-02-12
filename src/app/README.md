@@ -8,3 +8,4 @@
 4. run the server with the following command `python3 src/app/main.py`
 
 (venv) username@pc:~/lumen-geoguesser$ python3 src/app/main.py
+

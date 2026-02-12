@@ -27,3 +27,4 @@ if any([key not in _config for key in _keys]):
     raise EnvFileException(_exception_message.format(_keys))
 
 server_config = _config
+

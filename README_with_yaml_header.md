@@ -273,3 +273,4 @@ python3 src/app/main.py
 ```
 
 ![](docs/img/server_example.png)
+

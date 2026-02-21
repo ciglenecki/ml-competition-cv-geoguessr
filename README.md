@@ -1,4 +1,4 @@
-# 🌍 ML Competition – GeoGuessr Computer Vision AI – Lumen Data Science 2022
+# 🌍 ML Competition – Computer Vision GeoGuessr – Lumen Data Science 2022
 
 <p align="center">
 
